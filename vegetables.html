@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Ingredients</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<style>
+	body{
+		 background-image: url("Dark+Brown+Table+Background+-+Shutterstock+-+Large.jpg");
+	}
+  .well{
+    text-align: center;
+  }
+</style>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="foods.html">Food Delights</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="foods.html">Home</a></li>
+        <li><a href="selection.html">Selection</a></li>
+        <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Ingredients
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="vegetables.html">Vegetables</a></li>
+          <li><a href="meats.html">Meats</a></li>
+        </ul>
+      </li>
+        <li><a href="contactus.html">Contact Us</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="signup.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav><br>
+
+
+<div class="row">
+<div class="col-md-4">
+<a href="#" data-toggle="tooltip" data-placement="bottom" title="Lettuce: This vegetable can be added to hamburgers, salads, and etc."><img src="vegetable1.jpg" class="img-circle" alt="Cinque Terre" width="304" height="236"></a>
+<a href="#" data-toggle="tooltip" data-placement="bottom" title="Carrots: This vegetablecan be used to makes soups, to mix with different dishes, and you can make toppings out off these."><img src="vegetable2.jpg" class="img-circle" alt="Cinque Terre" width="304" height="236"></a>
+<a href="#" data-toggle="tooltip" data-placement="bottom" title="Tomatoes: You can use tomatoes for pizza toppings, make sauces out of it, salads, and many more."><img src="vegetable3.jpg" class="img-circle" alt="Cinque Terre" width="304" height="236"></a>
+</div>
+<div class="col-md-4">
+<a href="#" data-toggle="tooltip" data-placement="bottom" title="Cucumber: This vegetable can added to any type of salads and dishes that you want. This can also be added to hamburgers with any type of meat that comes with it."><img src="vegetable4.jpg" class="img-circle" alt="Cinque Terre" width="304" height="236"></a>
+<a href="#" data-toggle="tooltip" data-placement="bottom" title="Ginger: Mix this vegetable with certain soups or dishes and you would taste a certain spice that you want."><img src="ginger.jpg" class="img-circle" alt="Cinque Terre" width="304" height="236"></a>
+<a href="#" data-toggle="tooltip" data-placement="bottom" title="Potatoes: Make those famous mash potatoes with these, or you can also cut this up to fry them up to make french fries."><img src="vegetable6.jpg" class="img-circle" alt="Cinque Terre" width="304" height="236"></a>
+</div>
+<div class="col-md-4">
+<a href="#" data-toggle="tooltip" data-placement="bottom" title="Spinach: This vegetable can be mixed with any type that of dish you want to make. Examples are curry, salads, lasagne, soup and many more."><img src="vegetable7.jpg" class="img-circle" alt="Cinque Terre" width="304" height="236"></a>
+<a href="#" data-toggle="tooltip" data-placement="bottom" title="Squash: This can be mixed with soups and many more."><img src="vegetable8.jpg" class="img-circle" alt="Cinque Terre" width="304" height="236"></a>
+<a href="#" data-toggle="tooltip" data-placement="bottom" title="String Beans: Mix this with dishes with dishes where beef is included and your dish will be complete."><img src="vegetable9.jpg" class="img-circle" alt="Cinque Terre" width="304" height="236"></a>
+</div>
+</div>
+
+<script>
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();
+});
+</script>
+
+</body>
+</html>
+

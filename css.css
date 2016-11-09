@@ -1,0 +1,50 @@
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+
+
+
+button a{
+	font-family: cursive;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 25px 73px;
+	text-decoration: none;
+	font-size: 30px;
+}
+
+li:last-child{
+	border-right: none;
+}
+
+.jumbotron{
+	background-image: url(standard_background2.jpg);
+    background-position: 0% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+	color: white;
+}
+
+div h1{
+	font-family: courier;
+}
+
+div div img{ 	
+	position: absolute;
+	height: 400px;
+	width: 450px;
+	top: 100px;
+	left: 50px;
+	right: 50px;
+	bottom: 50px;
+	border: 10px solid grey;
+}
+
+p{
+	color: white;
+}
+
